@@ -1,0 +1,76 @@
+:root{
+    --primary-color: #00b4d8;
+    --secondary-color: #13e7e4;
+    --accent1-color: #e9eeef;
+    --accent2-color: #0077b6;
+    --heading-font: 'Metal Mania', sans-serif;
+    --body-font: 'Winky Rough', sans-serif;
+}
+header{
+    background-color: var(--primary-color);
+    color: var(--accent2-color)
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: var(--accent2-color);
+    font-family: var(--body-font);
+    
+
+}
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+nav, p, section{
+    margin: 16px;
+    padding: 8px;
+}
+.socialmedia a{
+    text-decoration: none;
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+h1{
+    top: 20px;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: black;
+
+}
+.hero article img{
+    float: right;
+    width: 150px;
+    border: 2px solid var(--secondary-color);
+}
+article{
+    bottom: 20px;
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: white;
+}
+footer nav img{
+    width: 20px;
+}
