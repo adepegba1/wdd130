@@ -61,7 +61,7 @@ h1{
     width: 150px;
     border: 2px solid var(--secondary-color);
 }
-article{
+.mission{
     bottom: 20px;
     position: absolute;
     width: 100%;
