@@ -65,7 +65,7 @@ nav, p, section{
     height: auto;
     
 }
-h1{
+.hero h1{
     top: 20px;
     position: absolute;
     width: 100%;
@@ -173,4 +173,9 @@ legend, button{
     padding: 0.5rem;
     color: var(--secondary-color);
     font-size: 1.3em;
+}
+iframe{
+     width: 800px; 
+     height: 450px; 
+     border: 1px solid black;
 }
