@@ -1,14 +1,14 @@
 :root{
     --primary-color: #00b4d8;
-    --secondary-color: #13e7e4;
+    --secondary-color: darkslategrey;
     --accent1-color: #e9eeef;
-    --accent2-color: #0077b6;
+    --accent2-color: #f7fb09;
     --heading-font: 'Metal Mania', sans-serif;
     --body-font: 'Winky Rough', sans-serif;
 }
 header{
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;  
@@ -71,9 +71,8 @@ h1{
     width: 100%;
     padding: 10px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: black;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
 
 }
 .hero article img{
@@ -87,9 +86,8 @@ h1{
     width: 100%;
     padding: 5px;
     text-align: left;
-    opacity: 0.7;
     background-color: var(--accent2-color);
-    color: white;
+    color: var(--secondary-color);
 }
 footer img{
     width: 20px;
@@ -97,7 +95,7 @@ footer img{
 }
 .text-centered{
     text-align: center;
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 #adventure-gallery{
     display: grid;
@@ -126,8 +124,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 footer .socialmedia{
     display: flex;
@@ -135,12 +133,44 @@ footer .socialmedia{
     justify-content: flex-end;
 }
 footer a:hover{
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
 }
 section{
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
+    border: 1px solid var(--accent1-color);
+    color: var(--secondary-color);
     margin: 2px;
     width: 100%;
     height:auto;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+form{
+    display: grid;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+}
+#teams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+#teams img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+}
+legend, button{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3em;
 }
