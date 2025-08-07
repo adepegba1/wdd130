@@ -101,7 +101,7 @@ nav, p, section{
     cursor: pointer;
 }
 #button-container:hover, 
-.description a button:hover{
+.description button:hover{
     background-color: var(--secondary-color);
     color: var(--accent1-color);
 }
@@ -259,9 +259,15 @@ iframe{
     grid-row: 1 / span 2;
     padding: 10px;
 }
-.description a button{
+.description button a{
     text-align: center;
+    text-decoration: none;
+}
+.description button{
     margin-left: 140px;
+}
+.description button a:hover{
+    color: var(--accent2-color);
 }
 .highlight h2{
     font-family: var(--body-font);
