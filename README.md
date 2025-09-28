@@ -4,25 +4,25 @@ This project is part of my Web Development (WDD 130) learning journey. It demons
 
 ## 📌 What I Achieved
 
--🔹 HTML (Structure & Content)
+- 🔹 HTML (Structure & Content)
 
-    - Built a semantic webpage using header, main, aside, footer, and nav.
+  - Built a semantic webpage using header, main, aside, footer, and nav.
 
-        - Created a navigation bar with links to:
+    - Created a navigation bar with links to:
 
-        - Homepage
+    - Homepage
 
-        - Rafting Website (placeholder link)
+    - Rafting Website (placeholder link)
 
-        - LinkedIn profile
+    - LinkedIn profile
 
-        - Facebook page
+    - Facebook page
 
-    - Added a profile section with an image and a short bio highlighting my skills in Virtual Assistance and Data Analytics.
+  - Added a profile section with an image and a short bio highlighting my skills in Virtual Assistance and Data Analytics.
 
-    - Used an unordered list (ul) to link to external resources (temple details).
+  - Used an unordered list (ul) to link to external resources (temple details).
 
-    - Added an aside section with a brief introduction to Nigeria, styled with its own background and image.
+  - Added an aside section with a brief introduction to Nigeria, styled with its own background and image.
 
 - 🔹 CSS (Styling & Layout)
 
