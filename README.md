@@ -26,7 +26,7 @@ This project is part of my Web Development (WDD 130) learning journey. It demons
 
 - 🔹 CSS (Styling & Layout)
 
-  - Applied a universal reset with \* { margin: 0; padding: 0; box-sizing: border-box; }.
+  - Applied a universal reset with { margin: 0; padding: 0; box-sizing: border-box; }.
 
   - Designed a flexible navigation bar with
 
@@ -60,8 +60,8 @@ This project is another milestone in my web development journey. By completing i
 
 - David Adepegba
 
-- <a href="https://www.linkedin.com/in/adepegbadavid1>LinkedIn</a>
+- <a href="https://www.linkedin.com/in/adepegbadavid1">LinkedIn</a>
 
 ## Live Preview
 
-<a href="https://adepegba1.github.io/wdd130/index.html>Homepage</a>
+<a href="https://adepegba1.github.io/wdd130/index.html">Homepage</a>

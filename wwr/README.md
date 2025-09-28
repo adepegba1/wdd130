@@ -66,8 +66,8 @@ This rafting website represents a step forward in my web development journey:
 
 - David Adepegba
 
-- <a href="https://www.linkedin.com/in/adepegbadavid1>LinkedIn</a>
+- <a href="https://www.linkedin.com/in/adepegbadavid1">LinkedIn</a>
 
 ## Live Preview
 
-<a href="https://adepegba1.github.io/wdd130/wwr/index.html>Homepage</a>
+<a href="https://adepegba1.github.io/wdd130/wwr/index.html">Homepage</a>
